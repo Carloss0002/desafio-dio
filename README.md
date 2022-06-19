@@ -7,6 +7,6 @@
 ## Objetivo 
 
 <p>
-  Organzizar todo o aprendizado durante este projeto.
+  Organizar todo o aprendizado durante este projeto.
 </p>
 
