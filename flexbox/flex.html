@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flex.css">
+    <title>FlexBox</title>
+</head>
+<body>
+   <div class="container">
+
+      <div class="flex">
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+        <div class="item">item 5</div>
+        <div class="item">item 6</div>
+        <div class="item">item 7</div>
+        <div class="item">item 8</div>
+        <div class="item">item 9</div>
+        <div class="item">item 10</div>
+        <div class="item">item 11</div>
+      </div>
+      <section>
+        <h1>Flex-wrap</h1>
+        <article>
+           <div class="flex_container">
+               <div class="item2" style="background-color: blue;">1</div>
+               <div class="item2" style="background-color: lightgreen;">2</div>
+               <div class="item2" style="background: orangered;">3</div>
+               <div class="item2" style="background-color: lightgreen;">2</div> 
+           </div>
+        </article>
+        <h2>Wrap</h2>
+        <article>
+           <div class="flex_container wrap">
+              <div class="item2" style="background-color: blue;">1</div>
+              <div class="item2" style="background-color: lightgreen;">2</div>
+              <div class="item2" style="background-color: orangered;">3</div>
+              <div class="item2" style="background-color: orangered;">1</div>
+           </div>
+        </article>
+   
+        <article>
+           <h2>flex-flow</h2>
+           <div class="flex-container ">
+               <div class="item3">1</div>
+               <div class="item3">2</div>
+               <div class="item3">3</div>
+               <div class="item3">4</div>
+               <div class="item3">5</div>
+           </div>
+   
+           <h2>wrap</h2>
+           
+           <div class="flex-container default">
+               <div class="item3">1</div>
+               <div class="item3">2</div>
+               <div class="item3">3</div>
+               <div class="item3">4</div>
+               <div class="item3">5</div>
+           </div>
+        </article>
+      </section>
+      <h2>Justify content: flex-end</h2>
+      <section  class="container-justify flex-end">
+        <div class="item4">1</div>
+        <div class="item4">2</div>
+        <div class="item4">3</div>   
+      </section>
+   
+      <h2>Justify content: center</h2>
+      
+      <section  class="container-justify flex-center">
+         <div class="item4">1</div>
+         <div class="item4">2</div>
+         <div class="item4">3</div>   
+      </section>
+      
+      <h2>Justify content: space-between</h2>
+      <section  class="container-justify flex-center space-between">
+        <div class="item4">1</div>
+        <div class="item4">2</div>
+        <div class="item4">3</div>   
+      </section>
+
+      <h2>Justify content: space-around</h2>
+      <section  class="container-justify flex-center space-around">
+        <div class="item4">1</div>
+        <div class="item4">2</div>
+        <div class="item4">3</div>   
+      </section>
+
+      <h2>Justify content: space-evenly</h2>
+      <section  class="container-justify flex-center space-evenly">
+        <div class="item4">1</div>
+        <div class="item4">2</div>
+        <div class="item4">3</div>   
+      </section>
+
+      <h2>Align Itens: center</h2>
+      <section class="container-align center">
+         <div class="item5">item 1</div>
+         <div class="item5">Lorem ipsum dolor, sit amet</div>
+         <div class="item5">item 3</div>
+      </section>
+
+      <h2>Align Itens: stretch</h2>
+      <section class="container-align stretch">
+         <div class="item5">item 1</div>
+         <div class="item5">Lorem ipsum dolor, sit amet</div>
+         <div class="item5">item 3</div>
+      </section>
+
+      <h2>Align Itens: flex-start</h2>
+      <section class="container-align start">
+         <div class="item5">item 1</div>
+         <div class="item5">Lorem ipsum dolor, sit amet</div>
+         <div class="item5">item 3</div>
+      </section>
+
+      <h2>Align Itens: flex-end</h2>
+      <section class="container-align end">
+         <div class="item5">item 1</div>
+         <div class="item5">Lorem ipsum dolor, sit amet</div>
+         <div class="item5">item 3</div>
+      </section>
+
+      <h2>Align Itens: baseline</h2>
+      <section class="container-align baseline">
+         <div class="item5">item 1</div>
+         <div class="item5">Lorem ipsum dolor, sit amet</div>
+         <div class="item5">item 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio pariatur vel vero. Maiores, </div>
+      </section>
+
+      <section class="container-align center central">
+          <div class="item5">item 1</div>
+      </section>
+
+      <h2>Align content: strach</h2>
+      <div class="container-content">
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur . </div>
+         <div class="item6">Lorem, ipsum dolor  </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur  </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur  </div>
+         
+      </div>
+
+      <h2>Align content: center</h2>
+      <div class="container-content center-content">
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur . </div>
+         <div class="item6">Lorem, ipsum dolor  </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur  </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur  </div>
+         
+      </div>
+
+      <h2>Align content: start</h2>
+      <div class="container-content start-content">
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur . </div>
+         <div class="item6">Lorem, ipsum dolor  </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur  </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur  </div>
+      </div>
+
+      <h2>Align content: end</h2>
+      <div class="container-content end-content">
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur . </div>
+         <div class="item6">Lorem, ipsum dolor  </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur  </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur  </div>
+      </div>
+
+      <h2>Align content: Space around</h2>
+      <div class="container-content space-around2">
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur . </div>
+         <div class="item6">Lorem, ipsum dolor  </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur  </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur  </div>
+      </div>
+
+      <h2>Align content: Space between</h2>
+      <div class="container-content space-between2">
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur . </div>
+         <div class="item6">Lorem, ipsum dolor  </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur  </div>
+         <div class="item6">Lorem, ipsum dolor sit amet consectetur  </div>
+      </div>
+   </div>
+</body>
+</html>

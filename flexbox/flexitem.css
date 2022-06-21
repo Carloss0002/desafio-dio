@@ -1,0 +1,102 @@
+.container{
+    display: flex;
+    border: 2px solid #000;
+    width: 300px;
+}
+.align{
+    display: flex;
+    border: 2px solid #000;
+    width: 300px;
+    align-items: center;
+}
+.cont{
+   width: 500px;
+}
+.item{
+    background-color: #ff4500;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+.itens{
+    background-color: #c53602c2;
+}
+.item2{
+    background-color: #ff4500;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+}
+.fg-1{
+    flex: 1;
+}
+.fg-2{
+    flex: 2;
+}
+.fg-3{
+    flex: 3;
+}
+.fb-0{
+    flex-basis: 0;
+}
+.w100{
+  flex-basis: 100px;
+}
+.fs{
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+.fs-2{
+    flex-shrink: 2;
+   
+}
+.fs-3{
+    flex-shrink: 3;
+   
+}
+.flex{
+    flex: 1;
+}
+.flex-2{
+    flex: 2;
+}
+
+.itens2{
+    flex: 1;
+    background-color: #d2691e;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    margin: 5px;
+}
+.order-1{
+    order: 1;
+}
+.order-2{
+    order: 2;
+}
+.order-3{
+    order: 4;
+}
+.order-4{
+    order: 5;
+}
+.center{
+    align-self: center;
+}
+.start{
+    align-self: flex-start;
+}
+.end{
+    align-self: flex-end;
+}
+.baseline{
+    align-self: baseline;
+}
+.stretch{
+    align-self: stretch;
+}
+.auto{
+    align-self: auto;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>flex item</title>
+        <link rel="stylesheet" href="flexitem.css">
+    </head>
+    <body>
+        <h1>Flex grow</h1>
+        <section>
+            <h3>flex grow: 0</h3>
+            <div class="container">
+                <div class="item">A</div>
+                <div class="item">B</div>
+                <div class="item">C</div>
+                <div class="item">D</div>
+            </div>
+
+            <h3>flex grow: 1</h3>
+            <div class="container">
+                <div class="item fg-1">A</div>
+                <div class="item fg-1">B</div>
+                <div class="item fg-1">C</div>
+                <div class="item fg-1">D</div>
+            </div>
+            <h3>flex grow: 2</h2>
+            <div class="container">
+                <div class="item fg-2 ">A</div>
+                <div class="item fg-2">B</div>
+                <div class="item fg-2">C</div>
+                <div class="item fg-2">D</div>
+            </div>
+            <h3>flex grow: 3</h3>
+            <div class="container">
+                <div class="item fg-3">A</div>
+                <div class="item fg-3">B</div>
+                <div class="item fg-3">C</div>
+                <div class="item fg-3">D</div>
+            </div>
+            <h3>flex grow: misto</h3>
+            <div class="container">
+                <div class="item fg-1">flex 1</div>
+                <div class="item ">flex-0</div>
+                <div class="item fg-2">flex-3</div>
+                <div class="item fg-1">flex-1</div>
+            </div>
+
+            <h3>flex grow: misto</h3>
+            <div class="container">
+                <div class="item fg-1">flex 1</div>
+                <div class="item fg-3">flex-3</div>
+                <div class="item fg-3">flex-3</div>
+                <div class="item fg-1">flex-1</div>
+            </div>
+        </section>
+ 
+        <section>
+            <h2 style="font-size: 40px;">Flex-basis</h2>
+            <div class="container">
+                <div class="item itens fg-1">A</div>
+                <div class="item itens fg-1">BBB</div>
+                <div class="item itens fg-1">C</div>
+                <div class="item itens fg-1">DEF</div>
+            </div>
+
+            <h4>flex-basis: 0</h4>
+            <div class="container">
+                <div class="item itens fb-0 fg-1">A</div>
+                <div class="item itens fb-0 fg-1">BBB</div>
+                <div class="item itens fb-0 fg-1">C</div>
+                <div class="item itens fb-0 fg-1">DEF</div>
+            </div>
+
+            <h4>flex-basis + width</h4>
+            <div class="container cont">
+                <div class="item itens w100">A</div>
+                <div class="item itens w100">BBB</div>
+                <div class="item itens w100">C</div>
+                <div class="item itens w100">DEF</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>flex-shrink</h2>
+            <br>
+            <h3>flex-shrink: 1</h3>
+            <div class="container">
+                <div class="item2 fg-1">A</div>
+                <div class="item2">B</div>
+                <div class="item2">C</div>
+                <div class="item2">D</div>
+            </div>
+            <h3>flex-shrink: 1</h3>
+            <div class="container">
+                <div class="item2 fg-1 fs" >A</div>
+                <div class="item2 fg-1 fs">texto aleatorio para consumir espaço</div>
+                <div class="item2 fg-1 fs">C</div>
+                <div class="item2 fg-1 fs">D</div>
+            </div>
+            <h3>flex-shrink: misto/basis: 100px</h3>
+            <div class="container">
+                <div class="item2 fg-1 fs-2 w100">A</div>
+                <div class="item2 fg-1 fs-2 w100">texto aleatorio para consumir espaço</div>
+                <div class="item2 fg-1 fs-2 w100">C</div>
+                <div class="item2 fg-1 fs-2 w100">D</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>flex</h2>
+            <div class="container cont">
+               <div class="item flex">A</div>
+               <div class="item flex">B</div>
+               <div class="item flex">C</div>
+               <div class="item flex">D</div>
+            </div>
+
+            <h3>Flex: mix</h3>
+            <div class="container cont">
+               <div class="item flex">A</div>
+               <div class="item flex-2">flex-2</div>
+               <div class="item flex-2">flex-2</div>
+               <div class="item flex">D</div>
+            </div>
+            
+        </section>
+        <section>
+            <h2>Order</h2>
+
+            <p>Order: 0</p>
+            <div class="container">
+                <div class="itens2">1</div>
+                <div class="itens2">2</div>
+                <div class="itens2">3</div>
+                <div class="itens2">4</div>
+            </div>
+
+            <p>Order: 1</p>
+            <div class="container">
+                <div class="itens2 order-2">1</div>
+                <div class="itens2 order-3">2</div>
+                <div class="itens2 order-4">3</div>
+                <div class="itens2 order-1">4</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Align-self</h2>
+            <div class="align">
+                <div class="item auto">AAAA</div>
+                <div class="item auto">1234</div>
+                <div class="item auto">Lorem ipsum dolor sit amet consectetur!</div>
+                <div class="item auto">1482</div>
+            </div>
+            <h3>misto</h3>
+            <div class="align">
+                <div class="item stretch">AAAA</div>
+                <div class="item start">1234</div>
+                <div class="item auto">Lorem ipsum dolor sit amet consectetur!</div>
+                <div class="item end">1482</div>
+                <div class="item center">Carlossdajan</div>
+            </div>
+        </section>
+    </body>
+</html>
