@@ -1,5 +1,5 @@
 function verificarPalidromo(string){
-    if(!string) return;
+    if(!string) throw "String inválida";
 
    return string.split("").reverse().join("") === string
 }
