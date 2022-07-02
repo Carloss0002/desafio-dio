@@ -10,3 +10,7 @@
   Organizar todo o aprendizado durante este projeto.
 </p>
 
+
+## Links
+
+[Typescript](https://github.com/Carloss0002/TypeScript)
